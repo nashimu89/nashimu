@@ -5,7 +5,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://nashimu.github.io",
+  site: "https://nashimu89.github.io",
   integrations: [mdx(), sitemap()],
-  base: "nashimu",
 });
