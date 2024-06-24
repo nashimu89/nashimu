@@ -7,4 +7,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://nashimu89.github.io",
   integrations: [mdx(), sitemap()],
+  base: "nashimu",
 });
